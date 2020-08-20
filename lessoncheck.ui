@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1197</width>
+    <height>824</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>150</y>
+     <width>1021</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="rowCount">
+    <number>6</number>
+   </property>
+   <property name="columnCount">
+    <number>8</number>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>126</number>
+   </attribute>
+   <attribute name="horizontalHeaderHighlightSections">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>32</number>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>105</number>
+   </attribute>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column/>
+   <column/>
+   <column/>
+   <column/>
+   <column/>
+   <column/>
+   <column/>
+   <column/>
+   <item row="0" column="0">
+    <property name="text">
+     <string>时间</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>星期一</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>星期二</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>星期三</string>
+    </property>
+   </item>
+   <item row="0" column="4">
+    <property name="text">
+     <string>星期四</string>
+    </property>
+   </item>
+   <item row="0" column="5">
+    <property name="text">
+     <string>星期五</string>
+    </property>
+   </item>
+   <item row="0" column="6">
+    <property name="text">
+     <string>星期六</string>
+    </property>
+   </item>
+   <item row="0" column="7">
+    <property name="text">
+     <string>星期日</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>第一二大节</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>第三四大节</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>第五六大节</string>
+    </property>
+   </item>
+   <item row="4" column="0">
+    <property name="text">
+     <string>第七八大节</string>
+    </property>
+   </item>
+   <item row="5" column="0">
+    <property name="text">
+     <string>第九十大节</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>110</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>第一周</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第二周</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第三周</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第四周</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;教室号：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>50</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;钟海楼03021&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>0</y>
+     <width>121</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+background-color:black;
+}</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>120</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>申请课室扫一扫</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>790</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="beijing">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>-6</y>
+     <width>1191</width>
+     <height>831</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>beijing</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
